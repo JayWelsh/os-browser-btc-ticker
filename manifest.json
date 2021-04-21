@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Open Source BTC Ticker",
+    "version": "0.0.1",
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    }
+}
